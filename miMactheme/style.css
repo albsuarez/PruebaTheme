@@ -1,0 +1,171 @@
+/*
+Theme Name: miMactheme
+Theme URI: http://mimac.test
+Tema para el ejercicio práctico de la empresa Reinicia 
+License: GNU General 
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+*/
+
+* {
+  font-family: 'Josefin Sans', sans-serif !important;
+  color: #495867;
+}
+
+a p {
+  font-size: 16px;
+}
+
+header {
+  background-color: #D8E6F3;
+}
+
+header .header-col-lf a {
+  color: #495867;
+}
+
+.logo-header {
+  width: 70px;
+}
+
+/* SECTION - 1 */
+.section-1 {
+  background-color: #FE5F55;
+}
+
+.section-1 p {
+  color: #FCFCFD;
+  font-size: 1.2rem;
+}
+
+.section-1 .title {
+  color: #FCFCFD;
+}
+
+
+
+.subtitte-home {
+  padding-right: 210px;
+}
+
+.btn {
+  letter-spacing: 2px;
+}
+
+@media (min-width:1025px) {
+  .section-1 .img-container-1 {
+    position: relative;
+    top: 80px;
+  }
+  .section-1 .img-container-1 img{
+    width: 470px;
+  }
+}
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+ .img-container-1 {
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+  .subtitte-home {
+    margin-top: 12px;
+    padding-right: 56px;
+  }
+}
+
+/* SECTION - 2 */
+.section-2 p {
+  color: #495867;
+}
+
+.card {
+  border-radius: 1.25rem;
+}
+
+.card-body {
+  padding: 90px 20px 20px 20px;
+}
+
+.card-title {
+  margin-top: 30px;
+}
+
+/* SECTION - 3 */
+
+@media (min-width:1025px) {
+  .section-3 .img-container-2 img {
+    position: relative;
+    left: 40px;
+    top: -15px;
+  }
+
+  header .header-col-lf {
+    text-align: right;
+    align-items: center;
+    color: #495867;
+  }
+
+  header .logo-header {
+    margin-left: 260px;
+  }
+}
+
+.section-3 .img-container-2 img {
+  border-radius: 7%;
+}
+
+.section-3 ul {
+  list-style-type: disc;
+}
+
+.section-3 .body-text {
+  padding-right: 3rem;
+}
+
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+  .section-3 .body-text {
+    padding-right: 10px;
+  }
+
+  .section-3 .img-container-2 img {
+    width: 358px;
+  }
+
+  header .header-col-lf {
+    text-align: center;
+    align-items: center;
+    color: #495867;
+  }
+
+  header .header-col-lf a {
+    color: #495867;
+  }
+}
+
+/* SECTION 4 */
+
+.contact-us-section {
+  background-color: #D8E6F3;
+}
+
+.contact-link {
+  color: #FE5F55;
+  text-decoration: underline;
+}
+
+.section-4 .form-check-input {
+  width: 20px;
+  height: 20px;
+}
+
+.section-4 .form-check-label {
+  padding-left: 20px;
+  padding-top: 4px;
+}
+
+footer .footer-col-lf a {
+  font-size: 16px;
+  color: #FCFCFD;
+}
